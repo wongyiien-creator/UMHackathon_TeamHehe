@@ -1,0 +1,42 @@
+[debug] [2026-04-21T06:45:02.398Z] ----------------------------------------------------------------------
+[debug] [2026-04-21T06:45:02.420Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\WCW\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init emulators
+[debug] [2026-04-21T06:45:02.421Z] CLI Version:   15.15.0
+[debug] [2026-04-21T06:45:02.422Z] Platform:      win32
+[debug] [2026-04-21T06:45:02.422Z] Node Version:  v24.14.1
+[debug] [2026-04-21T06:45:02.422Z] Time:          Tue Apr 21 2026 14:45:02 GMT+0800 (Malaysia Time)
+[debug] [2026-04-21T06:45:02.423Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-04-21T06:45:02.428Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\WCW\OneDrive\Documents\School\Events\UM
+
+[debug] [2026-04-21T06:45:28.237Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2026-04-21T06:45:28.237Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-04-21T10:19:37.897Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-04-21T10:19:37.898Z] > authorizing via signed-in user (wongyiien@gmail.com)
+[debug] [2026-04-21T10:19:37.900Z] Checked if tokens are valid: false, expires at: 1775576210872
+[debug] [2026-04-21T10:19:37.900Z] Checked if tokens are valid: false, expires at: 1775576210872
+[debug] [2026-04-21T10:19:37.901Z] > refreshing access token with scopes: []
+[debug] [2026-04-21T10:19:37.904Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-04-21T10:19:37.904Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-04-21T10:19:38.035Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-04-21T10:19:38.035Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-04-21T10:19:38.046Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2026-04-21T10:19:38.982Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2026-04-21T10:19:38.982Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] 
+=== Emulators Setup
