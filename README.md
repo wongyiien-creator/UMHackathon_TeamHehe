@@ -4,16 +4,13 @@ https://drive.google.com/drive/folders/1gxFX2DcgufHC5ZqzPOFNmoCKbIRzXMjp?usp=sha
 
 # Documents Link
 You also can find the necessary documents (.pdf) in the Documents folder in github.
-## Product Requirement
+### Product Requirement
 https://1drv.ms/w/c/8cfe547694fc94fd/IQC-AuTqQ1qxTrY2Nz5sPwJBAergl1ET4xy2o4bkmliPai0?e=10Wrdk 
-
-## System Analysis
+### System Analysis
 https://1drv.ms/w/c/8cfe547694fc94fd/IQCzFEln24OYSJFm2jJ5LPUBAVmA3nzf7FU1otTxyHxtX1M?e=YxmKa5
-
-## Sample Testing
+### Sample Testing
 https://1drv.ms/w/c/8cfe547694fc94fd/IQCd8xboqWuQSZFMX0DzBLBRAVIdcSO9ggFrGuF4Ls6ejmc?e=k7A8IS 
-
-## Presentation Deck
+### Presentation Deck
 https://canva.link/hje7or3ff35lwt9 
 
 # Project Description
@@ -27,4 +24,25 @@ In a saturated marketplace where consumer attention spans are declining quickly,
 
 # System Functionalities
 ### Market Analysis
+Interpreted structured and instructed data provided by the user to understand the market change and potential opportunities, and explain with context.
+### Marketing Mix Proposal
+After market analysis, it will provide a contextual marketing mix strategy for the business to use. Each decision is also explained based on the context to ensure the plan is not outdated.
+### Vertex AI Search
+Get context information based on region and industry. This is to provide context for market mix comparison. 
+### Marketing Mix Comparison
+Compare two different marketing strategies and pick the best one with reasoning. Further improvement will also be made.
+### Save Data
+Able to save market data into database so that market analysis will have more data to work with.
+
+#Technical Stack
+- Frontend: Android Framework API
+- Backend: FastAPI
+- Database: Firebase - Firestore
+- Cloud/Deployment: Cloud Run Deployment
+
+#External Dependencies
+- Z.AI API: Serves as the core reasoning engine
+- Firestore: Database for user and marketing data
+- Vertex AI Search: Search for regional market data
+- Google Cloud Run: Host  the Python backend
 
