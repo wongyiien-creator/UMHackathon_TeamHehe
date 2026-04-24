@@ -1,6 +1,9 @@
 # Business Optimizer
 # Video Link
-https://drive.google.com/drive/folders/1gxFX2DcgufHC5ZqzPOFNmoCKbIRzXMjp?usp=sharing
+https://drive.google.com/drive/folders/1gxFX2DcgufHC5ZqzPOFNmoCKbIRzXMjp?usp=sharing 
+
+in case the google drive link is not working:
+https://youtu.be/HndruStaQuw
 
 # Documents Link
 You also can find the necessary documents (.pdf) in the Documents folder in github.
