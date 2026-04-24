@@ -125,3 +125,7 @@ data class ComparisonRequest(
     val region: String,
     val industry: String
 )
+
+data class AnalysisRequest(
+    val user_id: String
+)

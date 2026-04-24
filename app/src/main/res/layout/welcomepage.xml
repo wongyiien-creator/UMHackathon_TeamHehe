@@ -35,7 +35,7 @@
         <TextView
             android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:text="Agriculture Helper"
+            android:text="Business Optimizer"
             android:textSize="20sp"
             android:textAlignment="center"
             android:gravity="center"

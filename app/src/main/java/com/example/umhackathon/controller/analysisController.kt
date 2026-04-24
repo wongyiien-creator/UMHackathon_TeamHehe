@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import com.example.umhackathon.API.apiClient
 import com.example.umhackathon.R
+import com.example.umhackathon.model.AnalysisRequest
 import kotlinx.coroutines.launch
 
 class analysisController: AppCompatActivity()  {
@@ -66,7 +67,9 @@ class analysisController: AppCompatActivity()  {
     private fun startAnalysis(){
         lifecycleScope.launch {
             try {
-                val analysis = apiClient.apiService.getAnalysis(userId)
+                Log.d("API_TEST","start analysis")
+                val request = AnalysisRequest(userId)
+                val analysis = apiClient.apiService.getAnalysis(request)
 
                 //Market Analysis
                 whiteSpaces.text = analysis.market_analysis.white_spaces.joinToString("\n\n") {

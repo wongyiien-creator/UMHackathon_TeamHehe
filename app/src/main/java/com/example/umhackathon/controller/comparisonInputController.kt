@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import com.example.umhackathon.API.apiClient
@@ -78,26 +79,29 @@ class comparisonInputController: AppCompatActivity()  {
         if (product_1.isEmpty() || price_1.isEmpty() || place_1.isEmpty() || promotion_1.isEmpty() ||
             product_2.isEmpty() || price_2.isEmpty() || place_2.isEmpty() || promotion_2.isEmpty() ||
             industry.isEmpty() || region.isEmpty()) {
-
-            val intent = Intent(this@comparisonInputController, comparisonController::class.java)
-            intent.putExtra("user_id", userId)
-            intent.putExtra("p1", product_1)
-            intent.putExtra("pr1", price_1)
-            intent.putExtra("pl1", place_1)
-            intent.putExtra("pro1", promotion_1)
-
-
-            intent.putExtra("p2", product_2)
-            intent.putExtra("pr2", price_2)
-            intent.putExtra("pl2", place_2)
-            intent.putExtra("pro2", promotion_2)
-
-            intent.putExtra("i", industry)
-            intent.putExtra("r", region)
-
-            startActivity(intent)
+            Toast.makeText(this@comparisonInputController, "Empty Fields!", Toast.LENGTH_SHORT).show()
+            return
         }
-    }
 
+        val intent = Intent(this@comparisonInputController, comparisonController::class.java)
+        intent.putExtra("user_id", userId)
+        intent.putExtra("p1", product_1)
+        intent.putExtra("pr1", price_1)
+        intent.putExtra("pl1", place_1)
+        intent.putExtra("pro1", promotion_1)
+
+
+        intent.putExtra("p2", product_2)
+        intent.putExtra("pr2", price_2)
+        intent.putExtra("pl2", place_2)
+        intent.putExtra("pro2", promotion_2)
+
+        intent.putExtra("i", industry)
+        intent.putExtra("r", region)
+
+        Log.d("APITET","input done")
+        startActivity(intent)
+
+    }
 }
 

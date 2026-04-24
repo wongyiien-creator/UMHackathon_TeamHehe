@@ -30,6 +30,7 @@ class comparisonController: AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.comparisonpage)
 
+        Log.d("Test","comparison")
         stressTest = findViewById(R.id.stressTest)
         c_mix1 = findViewById(R.id.comparemix1)
         c_mix2 = findViewById(R.id.comparemix2)
@@ -62,6 +63,7 @@ class comparisonController: AppCompatActivity() {
             intent.getStringExtra("i") ?: ""
         )
 
+        Log.d("API_TEST","start comparison")
         handleComparison(requestBody)
 
         back.setOnClickListener {

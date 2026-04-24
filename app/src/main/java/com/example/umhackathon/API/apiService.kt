@@ -28,7 +28,7 @@ interface ApiService {
 
     @POST("analysis")
     suspend fun getAnalysis(
-        @Query("user_id") userId: String
+        @Body request: AnalysisRequest
     ): AnalysisResponse
 
     @POST("comparison")
