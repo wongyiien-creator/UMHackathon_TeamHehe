@@ -34,13 +34,13 @@ Compare two different marketing strategies and pick the best one with reasoning.
 ### Save Data
 Able to save market data into database so that market analysis will have more data to work with.
 
-#Technical Stack
+# Technical Stack
 - Frontend: Android Framework API
 - Backend: FastAPI
 - Database: Firebase - Firestore
 - Cloud/Deployment: Cloud Run Deployment
 
-#External Dependencies
+# External Dependencies
 - Z.AI API: Serves as the core reasoning engine
 - Firestore: Database for user and marketing data
 - Vertex AI Search: Search for regional market data
